@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  background: linear-gradient(90deg, rgb(100, 0, 0)0%, rgb(141, 9, 9) 40%,rgb(136, 1, 1) 50%, rgb(141, 9, 9) 60%, rgb(100, 0, 0)100%);
+  background: linear-gradient(90deg, rgb(125, 0, 0)0%, rgb(185, 0, 0) 25%,rgb(215, 0, 0) 50%, rgb(185, 0, 0) 75%, rgb(125, 0, 0)100%);
   font-weight: 500;
 }
 
@@ -40,7 +40,6 @@
 
 .active{
   color:white;
-  text-decoration: underline;
 }
 
 .footerwrapper{
@@ -51,9 +50,72 @@
   align-items: center;
   border:1px solid black;
   margin-top:auto;
+  background-color: rgb(84,84,84);
+  color:white;
 }
 
 .homewrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:90vh;
+}
+
+.logo{
+width:600px;
+}
+
+.personnelwrapper{
+  width: 100%;
+  height:90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+.personnelwrapper > .cardStructure:first-child{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardwrapper{
+  width:250px;
+  height:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap:20px;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: medium;
+  border-radius: 5px;
+  border:1px solid rgb(84,84,84);
+  background-color: white;
+  font-weight: 600;
+}
+
+.imgwrapper{
+  margin-top:5px;
+}
+
+.titlewrapper{
+  background-color: rgb(84,84,84);
+  width: 100%;
+  padding:10px;
+  color:white;
+}
+
+.profilePic{
+  width:200px;
+  border-radius: 100px;
+  border: 1px solid black;
 }
 
 .notfoundwrapper{
@@ -64,4 +126,15 @@
   align-items: center;
   flex-direction: column;
   gap: 32px;
+}
+
+@media screen and (max-width: 780px){
+  .personnelwrapper{
+    height:auto;
+    padding:30px;
+  }
+
+  .logo{
+    width:400px;
+  }
 }

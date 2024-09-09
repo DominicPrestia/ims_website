@@ -1,27 +1,33 @@
+import Ed_profilePic from '../assets/Ed_profilepic.png'
+import Junius_profilePic from '../assets/Junius_profilepic.png'
+import Chanse_profilePic from '../assets/Anonymous_Profile.png'
+import Susan_profilePic from '../assets/Anonymous_Profile.png'
+
+
 const employeeData = [
     {
         id: 1,
         name: "Ed Garcia",
-        title: "MD",
-        headshot: 'assets/Anonymous_Profile.png'
+        title: "MD, Chief Executive Officer",
+        headshot: Ed_profilePic
     },
     {
         id: 2,
         name: "Junius Dural",
         title: "MSN, FNP-BC, Retired LCDR US Navy",
-        headshot: 'assets/Anonymous_Profile.png'
+        headshot: Junius_profilePic
     },
     {
         id: 3,
         name: "Chanse Hamilton",
         title: "FNP-BC",
-        headshot: 'assets/Anonymous_Profile.png'
+        headshot: Chanse_profilePic
     },
     {
         id: 4,
         name: "Susan St. Onge",
         title: "FNP-BC",
-        headshot: 'assets/Anonymous_Profile.png'
+        headshot: Susan_profilePic
     }
 ];
 
