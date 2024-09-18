@@ -8,7 +8,7 @@ const employeeData = [
     {
         id: 1,
         name: "Ed Garcia",
-        title: "MD, Chief Executive Officer",
+        title: "Chief Executive Officer",
         headshot: Ed_profilePic
     },
     {

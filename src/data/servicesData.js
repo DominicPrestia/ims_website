@@ -7,25 +7,25 @@ const services = [
     {
         id: 1,
         type: "On Call",
-        desc: "On call 24h/365 days a year for injury evaluation and management",
+        desc: "We are on call 24 hours a day 365 days a year for injury evaluation and management",
         icon: time,
     },
     {
         id: 2,
-        type: "OSHA Certified",
-        desc: "Practice solid medicine while respecting your OSHA recordable/lost time sensitivity",
+        type: "OSHA Sensitive",
+        desc: "We uphold the highest standards of care while respecting your OSHA recordable/lost time sensitivity",
         icon: hospital
     },
     {
         id: 3,
         type: "Development and Support",
-        desc: "Assist staff or setup your medical unit, customized to your needs and specifications",
+        desc: "We assist staff or setup your medical unit, customized to your needs and specifications",
         icon: light
     },
     {
         id: 4,
-        type: "ER and Acute Medicine",
-        desc: "Expert clincical experience in ER and acute medicine for your work site",
+        type: "ER & Acute Medicine Expertise",
+        desc: "We have expert clincical experience in emergency care and acute medicine to provide for your work site",
         icon: shield
     }
 

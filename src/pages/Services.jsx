@@ -7,7 +7,10 @@ const Services = () => {
     <div className="serviceswrapper">
       <div className='personnelheader'>
         <div>
-          <span style={{ color: 'white', fontSize: '32px' }}>
+          <span style={{ 
+            fontSize: '32px', 
+            textShadow:'3px 3px 2px black', 
+            }}>
             Services
           </span>
         </div>

@@ -5,6 +5,7 @@
   list-style-type: none;
   text-decoration: none;
   font-family: "Roboto", system-ui;
+  /* color:#f8e3e3; */
 }
 
 .appwrapper {
@@ -25,8 +26,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgb(200, 0, 0) 0%, rgb(141, 9, 9) 60%, rgb(100, 0, 0) 100%);
-  font-weight: 500;
+  background: linear-gradient(90deg, #421a1a 0%, #421a1a 50%, #421a1a 100%);
+  font-weight: 300;
+  border-bottom: 1px solid #290101;
   box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
   z-index: 100;
 }
@@ -34,13 +36,12 @@
 .navwrapper ul {
   display: flex;
   font-size: 20px;
-  color: black;
   height: 100%;
 }
 
 .navwrapper li {
   padding: 10px 15px;
-  border-right: 2px solid black;
+  border-right: 2px solid #290101;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -53,16 +54,20 @@
 }
 
 .navwrapper li:hover {
-  background-color: rgb(125, 0, 0);
-  color: black;
+  background-color: #820303;
+
 }
 
 .nav-link {
-  color: black;
+  color: #f8e3e3;
 }
 
 .active {
-  color: white;
+  color: #eb5e5e;
+}
+
+.active:hover {
+  color: #f8e3e3;
 }
 
 .footerwrapper {
@@ -70,10 +75,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #0d0505;
   color: white;
   height: 300px;
-  border-top: 1px solid rgb(212, 212, 212);
+  border-top: 1px solid #998080;
 }
 
 .footer-left {
@@ -110,11 +115,29 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: rgb(212, 212, 212);
+  background-color:#2e1212 ;
+
+}
+
+.logowrapper{
+  width:100%;
+  height:325px;
+  background-color:#2e1212 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  box-shadow: 0px 0px 200px 20px rgba(0, 0, 0,  1.0);
+  padding:20px;
+  overflow:hidden;
+  padding-right:30px;
 }
 
 .logo {
-  width: 800px;
+  max-width: 700px;
+  min-width:400px;
+  margin-top:60px;
 }
 
 .personnelwrapper {
@@ -126,8 +149,8 @@
   flex-wrap: wrap;
   gap: 10px;
   padding: 30px;
-  color: white;
-  background-color: black;
+  color: #f8e3e3;
+  background-color: #2e1212;
   margin-top: 5vh;
 }
 
@@ -138,7 +161,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid black;
 }
 
 /* .personnelwrapper > .cardStructure:last-child{
@@ -161,9 +183,11 @@
   text-align: center;
   font-size: medium;
   border-radius: 5px;
-  color: white;
+  color: #f8e3e3;
   font-weight: 600;
-  border: 1px solid white;
+  border: 1px solid #f8e3e3;
+  background-color: rgba(66, 26, 26);
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .imgwrapper {
@@ -171,11 +195,11 @@
 }
 
 .titlewrapper {
-  background-color: rgb(84, 84, 84);
-  border: 1px solid white;
+  background-color: #281010;
+  border: 1px solid #f8e3e3;
   width: 100%;
   padding: 10px;
-  color: white;
+  color:#f8e3e3;
 }
 
 .cardwrapper p {
@@ -219,15 +243,15 @@
   flex-wrap: wrap;
   gap: 10px;
   padding: 30px;
-  color: white;
-  background-color: black;
+  color: #f8e3e3;
+  background-color: #2e1212;
   margin-top: 5vh;
 }
 
 .serviceCardWrapper {
-  border: 1px solid white;
+  background-color: rgba(66, 26, 26,.5);
   border-radius: 5px;
-  width: 275px;
+  width: 300px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -235,15 +259,57 @@
   align-items: center;
   text-align: center;
   padding: 10px 20px;
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .serviceCardWrapper img {
   width: 100px;
 }
 
+.contactwrapper{
+  flex: 1;
+  min-height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #f8e3e3;
+  background-color: #2e1212;
+  margin-top: 5vh;
+}
+
+.contactcontainer{
+  margin-top:30px;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactheader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
 @media screen and (max-width: 500px) {
   .personnelwrapper {
     flex: 1;
+  }
+
+  .logowrapper{
+    width: 100%;
+    border:none;
+    border-radius: 0px;
+    border-top:1px solid #c6baba;
+    border-bottom:1PX SOLID #c6baba;
+    padding-right:30px;
   }
 
   .logo {
