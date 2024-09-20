@@ -1,7 +1,7 @@
 import Ed_profilePic from '../assets/Ed_profilepic.png'
 import Junius_profilePic from '../assets/Junius_profilepic.png'
-import Chanse_profilePic from '../assets/Anonymous_Profile.png'
-import Susan_profilePic from '../assets/Anonymous_Profile.png'
+import Chanse_profilePic from '../assets/Chance_profilepic.png'
+import Susan_profilePic from '../assets/Susan_pofilepic.png'
 
 
 const employeeData = [

@@ -77,13 +77,15 @@
   align-items: center;
   background-color: #0d0505;
   color: white;
-  height: 300px;
+  height: 5vh;
   border-top: 1px solid #998080;
+  padding: 10px;
 }
 
 .footer-left {
   height: 100%;
   width: 50%;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,24 +93,9 @@
   text-align: center;
 }
 
-.footer-left img {
-  width: 400px;
-}
-
-.footer-right {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  gap: 20px;
-}
-
 .homewrapper {
   flex: 1;
-  min-height: 100vh;
+  min-height: 90vh;
   margin-top: 5vh;
   display: flex;
   flex-direction: column;
@@ -142,7 +129,7 @@
 
 .personnelwrapper {
   flex: 1;
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -211,8 +198,10 @@
 
 .profilePic {
   width: 200px;
+  height:200px;
   border-radius: 100px;
   border: 1px solid white;
+  object-fit: cover;
 }
 
 .notfoundwrapper {
@@ -236,7 +225,7 @@
 
 .serviceswrapper {
   flex: 1;
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -268,7 +257,7 @@
 
 .contactwrapper{
   flex: 1;
-  min-height: 75vh;
+  min-height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
