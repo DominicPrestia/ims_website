@@ -1,20 +1,20 @@
 import { Link, NavLink } from "react-router-dom"
 
-const Navbar = () => {
+const Navbar = ({scrollToSection}) => {
     return (
         <nav className="navwrapper">
             <ul>
                 <li>
-                    <NavLink className="nav-link" to="/">Home</NavLink>
+                    <NavLink className="nav-link" onClick={()=>scrollToSection('home')}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/services">Services</NavLink>
+                    <NavLink className="nav-link" onClick={()=>scrollToSection('services')}>Services</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/personnel">Personnel</NavLink>
+                    <NavLink className="nav-link" onClick={()=>scrollToSection('personnel')}>Personnel</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                    <NavLink className="nav-link" onClick={()=>scrollToSection('contact')}>Contact</NavLink>
                 </li>
             </ul>
         </nav>

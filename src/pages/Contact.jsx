@@ -2,7 +2,7 @@ import employee_data from '../data/employeeData.js'
 
 const Contact = () => {
   return (
-    <div className="contactwrapper">
+    <div id='contact' className="contactwrapper">
       <div className='contactcontainer'>
         <div className='contactheader'>
           <h2>Please contact Dr. Edward Garcia for business inquiries:</h2>
