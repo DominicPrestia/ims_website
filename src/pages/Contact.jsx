@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='contactheader'>
           <h2>For business inquiries:</h2>
         </div>
-        <p>Dr. Garcia, MD </p>
+        <p>Ed Garcia, MD </p>
         <p>{employee_data[0].title}</p>
         <p>Email: eddiegarcia10@hotmail.com</p>
       </div>
