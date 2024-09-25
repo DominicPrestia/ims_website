@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ims_website/static/css/main.c3fd2446.css",
-    "main.js": "/ims_website/static/js/main.b3112c8a.js",
-    "static/media/Ed_profilepic.png": "/ims_website/static/media/Ed_profilepic.87c951b2852e90718314.png",
+    "main.css": "/ims_website/static/css/main.40434771.css",
+    "main.js": "/ims_website/static/js/main.f5381350.js",
     "static/media/Susan_pofilepic.png": "/ims_website/static/media/Susan_pofilepic.45f4eaa70ba78fe36ec7.png",
+    "static/media/refinery_background.png": "/ims_website/static/media/refinery_background.3a5f4b438d7e53a2b534.png",
+    "static/media/Ed_profilepic.png": "/ims_website/static/media/Ed_profilepic.f06fc1e55b4025e21678.png",
     "static/media/Logo.png": "/ims_website/static/media/Logo.7f7bcba93ab45822ba5c.png",
     "static/media/Junius_profilepic.png": "/ims_website/static/media/Junius_profilepic.d31aa587080bf9f8159f.png",
     "static/media/Chance_profilepic.png": "/ims_website/static/media/Chance_profilepic.427257fa5ee8d4abf7a9.png",
     "index.html": "/ims_website/index.html",
-    "main.c3fd2446.css.map": "/ims_website/static/css/main.c3fd2446.css.map",
-    "main.b3112c8a.js.map": "/ims_website/static/js/main.b3112c8a.js.map"
+    "main.40434771.css.map": "/ims_website/static/css/main.40434771.css.map",
+    "main.f5381350.js.map": "/ims_website/static/js/main.f5381350.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3fd2446.css",
-    "static/js/main.b3112c8a.js"
+    "static/css/main.40434771.css",
+    "static/js/main.f5381350.js"
   ]
 }
